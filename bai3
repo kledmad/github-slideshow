@@ -1,0 +1,4 @@
+select type1 as loai, avg(attack) as TB_cong, avg(defense)as TB_thu 
+From pokemon p 
+Group by type1 
+Order by type1 asc 
