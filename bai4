@@ -1,0 +1,4 @@
+Select name as legendary_pokemon, type1,type2,is_legendary 
+from pokemon p 
+WHERE is_legendary='1'and type1 = 'fire' and type2 is not NULL 
+order by name asc 
