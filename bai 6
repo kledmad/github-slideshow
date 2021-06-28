@@ -1,0 +1,11 @@
+Select
+	name as pokemon,
+	max(base_total)as base_total_caonhat
+from
+	pokemon p
+where
+	is_legendary = '0'
+group by name
+order by
+	base_total_caonhat DESC
+limit 10
