@@ -1,0 +1,4 @@
+select type1 as loai,count(type1) as soluong
+from pokemon p 
+group by type1 
+order by loai asc
