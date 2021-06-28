@@ -1,0 +1,4 @@
+select type1 as loai, max(base_total)as cao_nhat,min(base_total)as thap_nhat,avg(base_total)as trung_binh
+from pokemon p 
+group by type1
+order by loai asc
