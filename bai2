@@ -1,0 +1,5 @@
+select name as pokemon,attack+defense+speed as tong_ADF
+from pokemon p 
+group by name 
+order by attack+defense+speed asc
+limit 10
